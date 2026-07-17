@@ -348,7 +348,7 @@
 .text_hitbox{
     position: fixed;
     top: 270px;
-    left: -25px;
+    left: -50px;
     width: 100%;
     display: flex;
     justify-content: center;

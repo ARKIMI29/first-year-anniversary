@@ -84,7 +84,7 @@ function move(hitbox, heart,  top, hor){
             requestAnimationFrame(smoothFrame);
         }
         else{
-            y_pos -= 0.7;
+            y_pos -= 1;
             hitbox.style.top = y_pos + "px";
             while(rand >= -0.008 && rand <= 0.008){
                 rand = (Math.random() * 0.01) - 0.01;

@@ -77,7 +77,7 @@ function move(hitbox, heart,  top, hor){
         }
     }
     function smoothFrame() {
-        if(y_pos <= (-window.innerHeight - 100)){
+        if(y_pos <= (-window.innerHeight - 200)){
             y_pos = Math.floor(Math.random() * 1000);
             hitbox.style.left = Math.random() * window.innerWidth + "px";
 

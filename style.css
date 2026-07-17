@@ -361,7 +361,7 @@
     font-size: 70px;
     pointer-events: none;
     transition: opacity 2s ease-in;
-    font-family: 'Apple Chancery', 'Zapf Chancery', 'URW Chancery L', 'Monotype Corsiva', cursive;
+    font-family: 'Courier Prime', 'American Typewriter', monospace;
 }
 .main_text_container{
     position:absolute;

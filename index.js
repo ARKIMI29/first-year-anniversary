@@ -232,7 +232,7 @@ let main_img = document.getElementById("main_text_pic");
 let ps = document.getElementById("ps");
 
 function countStyle(){
-    if(counter == 29){
+    if(counter == 30){
         check = false;
         counterEl.style.textShadow = "0px 0px 15px white, 0px 0px 30px white, 0px 0px 45px white";
         text.style.textShadow = "0px 0px 15px white, 0px 0px 30px white, 0px 0px 45px white";

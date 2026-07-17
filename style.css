@@ -322,7 +322,7 @@
 
 .count{
     position: fixed;
-    top: 500px;
+    top: -100px;
     left: 50px;
     width: 100%;
     display: flex;

@@ -84,7 +84,7 @@ function move(hitbox, heart,  top, hor){
             requestAnimationFrame(smoothFrame);
         }
         else{
-            y_pos -= 0.5;
+            y_pos -= 0.7;
             hitbox.style.top = y_pos + "px";
             while(rand >= -0.008 && rand <= 0.008){
                 rand = (Math.random() * 0.01) - 0.01;
@@ -142,7 +142,7 @@ function album(){
         if((click >= 0) && (click < 2)){
             bt2.style.transform = `translateY(${(Math.random() * 150) - 60}px) translateX(${(Math.random() * 400) - 200 }px)`;
             if((click >= 1) && (click < 2)){
-                bt2.style.width = "400px";
+                bt2.style.width = "350px";
                 setTimeout(function(){
                     bt2.textContent = "Wrong button, buddy!";
                 }, 800);

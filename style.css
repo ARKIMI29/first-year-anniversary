@@ -363,21 +363,27 @@
     transition: opacity 2s ease-in;
     font-family: 'Courier Prime', 'American Typewriter', monospace;
 }
-.main_text_container{
-    position:absolute;
+.main_text_container {
+    position: absolute;
     background-color: rgba(37, 36, 36, 0.955);
-    display:flex;
+    display: flex;
+    flex-direction: column; /* Stacks your content vertically */
     justify-content: center;
     padding: 50px;
     z-index: 15;
     width: 90vw; 
     max-width: 1000px;
-    height: 2500px;
+    min-height: 2500px;    /* Ensures it is at least 2500px, but allows expansion */
     left: 12%;
     border-radius: 30px;
     opacity: 0;
     transition: all 3s ease-in-out;
     pointer-events: none;
+}
+
+/* Prevents Chrome on Mac from squishing the elements inside your container */
+.main_text_container > * {
+    flex-shrink: 0;
 }
 .main_text{
     text-align: left;

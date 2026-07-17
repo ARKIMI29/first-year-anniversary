@@ -322,7 +322,7 @@
 
 .count{
     position: fixed;
-    top: 10px;
+    top: 250px;
     left: 50px;
     width: 100%;
     display: flex;
@@ -337,7 +337,7 @@
     opacity: 0;
     transition: opacity 2s ease-in;
     pointer-events: none;
-    font-family: 'Apple Chancery', 'Zapf Chancery', 'URW Chancery L', 'Monotype Corsiva', cursive;
+    font-family: 'Courier Prime', 'American Typewriter', monospace;
     text-shadow: 
         0 0 5px #fff,          /* Bright white core */
         0 0 100px #ff0000,      /* Soft red inner glow */

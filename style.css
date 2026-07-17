@@ -368,14 +368,13 @@
     background-color: rgba(37, 36, 36, 0.955);
     display:flex;
     justify-content: center;
-    align-items: center;
     padding: 50px;
     z-index: 15;
     width: 90vw; 
     max-width: 1000px;
-    height: 150vw;
-    max-height: 1700px;
-    left: 14%;
+    height: 120vw;
+    max-height: 2000px;
+    left: 10%;
     border-radius: 30px;
     opacity: 0;
     transition: all 3s ease-in-out;

@@ -142,7 +142,7 @@ function album(){
         if((click >= 0) && (click < 2)){
             bt2.style.transform = `translateY(${(Math.random() * 150) - 60}px) translateX(${(Math.random() * 400) - 200 }px)`;
             if((click >= 1) && (click < 2)){
-                bt2.style.width = "320px";
+                bt2.style.width = "400px";
                 setTimeout(function(){
                     bt2.textContent = "Wrong button, buddy!";
                 }, 800);
@@ -232,7 +232,7 @@ let main_img = document.getElementById("main_text_pic");
 let ps = document.getElementById("ps");
 
 function countStyle(){
-    if(counter == 5){
+    if(counter == 29){
         check = false;
         counterEl.style.textShadow = "0px 0px 15px white, 0px 0px 30px white, 0px 0px 45px white";
         text.style.textShadow = "0px 0px 15px white, 0px 0px 30px white, 0px 0px 45px white";

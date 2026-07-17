@@ -142,7 +142,7 @@ function album(){
         if((click >= 0) && (click < 2)){
             bt2.style.transform = `translateY(${(Math.random() * 150) - 60}px) translateX(${(Math.random() * 400) - 200 }px)`;
             if((click >= 1) && (click < 2)){
-                bt2.style.width = "350px";
+                bt2.style.width = "330px";
                 setTimeout(function(){
                     bt2.textContent = "Wrong button, buddy!";
                 }, 800);

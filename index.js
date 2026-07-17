@@ -87,7 +87,7 @@ function move(hitbox, heart,  top, hor){
             y_pos -= 1;
             hitbox.style.top = y_pos + "px";
             while(rand >= -0.008 && rand <= 0.008){
-                rand = (Math.random() * 0.01) - 0.01;
+                rand = (Math.random() * 0.015) - 0.015;
             }
 
             angle += rand;

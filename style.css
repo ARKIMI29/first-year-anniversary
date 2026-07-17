@@ -322,7 +322,7 @@
 
 .count{
     position: fixed;
-    top: 150px;
+    top: 145px;
     left: 50px;
     width: 100%;
     display: flex;
@@ -373,7 +373,7 @@
     z-index: 15;
     width: 90vw; 
     max-width: 1000px;
-    min-height: 2250px;    /* Ensures it is at least 2500px, but allows expansion */
+    min-height: 2150px;    /* Ensures it is at least 2500px, but allows expansion */
     left: 12%;
     border-radius: 30px;
     opacity: 0;

@@ -140,7 +140,7 @@ function album(){
     }
     bt2.onclick = function(){
         if((click >= 0) && (click < 2)){
-            bt2.style.transform = `translateY(${(Math.random() * 150) - 60}px) translateX(${(Math.random() * 400) - 200 }px)`;
+            bt2.style.transform = `translateY(${(Math.random() * 130) - 40}px) translateX(${(Math.random() * 400) - 200 }px)`;
             if((click >= 1) && (click < 2)){
                 bt2.style.width = "330px";
                 setTimeout(function(){
